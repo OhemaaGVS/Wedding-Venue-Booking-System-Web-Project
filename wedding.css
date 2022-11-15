@@ -1,3 +1,4 @@
+/*used for the formatting of the card */ 
 .card {
             border: none;
             padding: 10px 50px;
@@ -11,6 +12,7 @@
                 transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
             }
 
+                 /* when the card is being hovered over*/ 
             #image, .card:hover {
                 transform: scale(1.02, 1.02);
                 -webkit-transform: scale(1.02, 1.02);
@@ -18,7 +20,6 @@
                 will-change: transform;
                 box-shadow: 0 1rem 3rem rgba(0,0,0,.75) !important;
             }
-
                 .card:hover::after {
                     opacity: 1;
                 }
@@ -27,32 +28,32 @@
                     color: white;
                     background: #007bff;
                 }
-
+    
+                 /* Css used to make the content responsive*/ 
         .responsive {
             width: 70%;
             height: auto;
         }
 
-
+/* colour for some of the headings  */
         h1, h2, h4 {
             color: #FF1493;
             
         }
-
+/*  css formatting of the items that have the date id*/
         #date {
             color: #FF1493;
             font-size: 55px;
              font-family:cursive;
         }
-
+/*  css for the objects that have the id label*/
         #label {
             color: #FF1493;
             font-size: 30px;
              font-family:cursive;
         }
 
-
-
+/*  css for the body*/
         body {
             background: url("weddingBackground.jpg") no-repeat center center fixed;
             -webkit-background-sizb2e: cover;
@@ -60,12 +61,13 @@
             -o-background-size: cover;
             background-size: cover;
         }
-
+/* colour of the iputs, buttons and the drop downs */
         input, select,button {
             background-color: #FFC0CB;
              font-family:cursive;
         }
-        span{
+/* css for the span */
+span{
 
   color: #FF1493;
   font-size: 40px;
